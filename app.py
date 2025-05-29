@@ -33,6 +33,7 @@ def filter_data(days):
 
 # Create the Dash app
 app = Dash(__name__)
+server = app.server
 
 app.layout = html.Div([
     html.H1("🌍 Earthquake Dashboard", style={"textAlign": "center"}),
